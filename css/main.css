@@ -517,12 +517,31 @@ margin-right: 20px;
     height: 100%;
     border-radius: 50%;
 }
-.footer .elements .email {
-overflow: auto;
+.text-data h1, .phone-footer, .website-footer, .email-footer,     .adress-footer {
+overflow-x: auto;
 }
 @media(max-width:576px) {
-    .footer .elements .email::-webkit-scrollbar {
+    .text-data h1::-webkit-scrollbar {
         height: 1px;
+        width: 1px;
+      }
+      
+    .phone-footer::-webkit-scrollbar {
+        height: 1px;
+      }
+    .website-footer::-webkit-scrollbar {
+        height: 1px;
+      }
+    .email-footer::-webkit-scrollbar {
+        height: 1px;
+      }
+    .adress-footer::-webkit-scrollbar {
+        height: 1px;
+      }
+      .lineData {
+        margin-top: 0;
+        margin-left: 0;
+        margin: auto;
       }
       
 }
